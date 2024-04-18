@@ -1,2 +1,2 @@
 # Ride-Share-System-Analytics-Dashboard
-The Ride Share Analytics Dashboard project is designed to provide a comprehensive overview of ride-sharing activities within urban environments. 
+The Ride Share Analytics Dashboard project is designed to provide a comprehensive overview of ride-sharing activities within urban environments. By integrating and visualizing data from multiple ride-sharing platforms, this dashboard aims to offer actionable insights for improving traffic management, enhancing user experiences, and supporting sustainable urban mobility strategies.
