@@ -1,0 +1,156 @@
+Poisson Regression Model Results
+****Bike****
+
+Start Date: 2022-05-01 00:00:06
+End Date: 2023-04-30 23:59:05
+
+Independent_variable: 'casual', 'member','classic_bike','docked_bike', 'electric_bike','distance','duration', 'Friday', 'Monday', 'Saturday', 'Sunday','Thursday', 'Tuesday', 'Wednesday'.
+
+Dependent Variables: 'daily_ride_count'
+
+
+*************Summer**********
+
+Bike - Pm params values and coefficients for Summer
+
+5.1465362141454145*** (p-value: 0.0)
+2.577230366201101*** (p-value: 0.0)
+2.5693058479443347*** (p-value: 0.0)
+1.717381972702155*** (p-value: 0.0)
+1.7167151740595568*** (p-value: 0.0)
+1.7124390673836998*** (p-value: 0.0)
+0.0012313265231745035*** (p-value: 0.0)
+6.861006638103914e-05*** (p-value: 0.0)
+0.7863834669906017*** (p-value: 0.0)
+0.5804779969252961*** (p-value: 0.0)
+0.9015694200676407*** (p-value: 0.0)
+0.7627722997752777*** (p-value: 0.0)
+0.7381631480673415*** (p-value: 0.0)
+0.6813928201112591*** (p-value: 0.0)
+0.6957770622079957*** (p-value: 0.0)
+
+Coefficient Values for Summer:
+const            5.146536
+casual           2.577230
+member           2.569306
+classic_bike     1.717382
+docked_bike      1.716715
+electric_bike    1.712439
+distance         0.001231
+duration         0.000069
+Friday           0.786383
+Monday           0.580478
+Saturday         0.901569
+Sunday           0.762772
+Thursday         0.738163
+Tuesday          0.681393
+Wednesday        0.695777
+
+
+******Fall*********
+
+Bike - Pm params values and coefficients for Fall
+5.008189789477836*** (p-value: 0.0)
+2.53283649743067*** (p-value: 0.0)
+2.475353292047169*** (p-value: 0.0)
+1.6800794478728736*** (p-value: 0.0)
+1.6705020311552923*** (p-value: 0.0)
+1.6576083104496635*** (p-value: 0.0)
+4.3661786645179525e-05*** (p-value: 0.0)
+0.0003911066413391712*** (p-value: 0.0)
+0.7887689586447679*** (p-value: 0.0)
+0.5731000982465457*** (p-value: 0.0)
+0.9035633298298623*** (p-value: 0.0)
+0.6382899154480821*** (p-value: 0.0)
+0.7856963407218975*** (p-value: 0.0)
+0.6080896942145722*** (p-value: 0.0)
+0.710681452372106*** (p-value: 0.0)
+
+Coefficient Values for Fall:
+const            5.008190
+casual           2.532836
+member           2.475353
+classic_bike     1.680079
+docked_bike      1.670502
+electric_bike    1.657608
+distance         0.000044
+duration         0.000391
+Friday           0.788769
+Monday           0.573100
+Saturday         0.903563
+Sunday           0.638290
+Thursday         0.785696
+Tuesday          0.608090
+Wednesday        0.710681
+
+*************Spring****************
+
+Bike - Pm params values and coefficients for Spring
+4.951446636522401*** (p-value: 0.0)
+2.553005617731559*** (p-value: 0.0)
+2.3984410187908445*** (p-value: 0.0)
+1.6840650656256662*** (p-value: 0.0)
+1.694465652712321*** (p-value: 0.0)
+1.572915918184421*** (p-value: 0.0)
+0.01742828788037815*** (p-value: 0.0)
+0.0005041142640115825*** (p-value: 0.0)
+0.695368666811402*** (p-value: 0.0)
+0.720880387005963*** (p-value: 0.0)
+0.8468495634380805*** (p-value: 0.0)
+0.6612598126440307*** (p-value: 0.0)
+0.7576799146677214*** (p-value: 0.0)
+0.689981686361476*** (p-value: 0.0)
+0.5794266055937308*** (p-value: 0.0)
+
+Coefficient Values for Spring:
+const            4.951447
+casual           2.553006
+member           2.398441
+classic_bike     1.684065
+docked_bike      1.694466
+electric_bike    1.572916
+distance         0.017428
+duration         0.000504
+Friday           0.695369
+Monday           0.720880
+Saturday         0.846850
+Sunday           0.661260
+Thursday         0.757680
+Tuesday          0.689982
+Wednesday        0.579427
+
+*************Winter****************
+Bike - Pm params values and coefficients for Winter
+4.481397174185188*** (p-value: 0.0)
+2.2529641706056576*** (p-value: 0.0)
+2.228433003579533*** (p-value: 0.0)
+1.4904405966155831*** (p-value: 0.0)
+1.50231773833323*** (p-value: 0.0)
+1.4886388392363725*** (p-value: 0.0)
+0.007987083464319263*** (p-value: 0.0)
+-6.0332253643648725e-05*** (p-value: 0.0)
+0.5798257000621494*** (p-value: 0.0)
+0.6601351718696283*** (p-value: 0.0)
+0.47914717827087566*** (p-value: 0.0)
+0.5403547791333281*** (p-value: 0.0)
+0.664610100636078*** (p-value: 0.0)
+0.8189380160836476*** (p-value: 0.0)
+0.7383862281294805*** (p-value: 0.0)
+
+Coefficient Values for Winter:
+const            4.481397
+casual           2.252964
+member           2.228433
+classic_bike     1.490441
+docked_bike      1.502318
+electric_bike    1.488639
+distance         0.007987
+duration        -0.000060
+Friday           0.579826
+Monday           0.660135
+Saturday         0.479147
+Sunday           0.540355
+Thursday         0.664610
+Tuesday          0.818938
+Wednesday        0.738386
+

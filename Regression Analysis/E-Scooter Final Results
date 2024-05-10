@@ -1,0 +1,153 @@
+Poisson Regression Model Results
+****E-Scooter****
+
+Independent variables: 'TMIN','TMAX','Lime', 'Lyft', 'Spin','Trip Distance (miles)',
+                       'Trip Duration (minutes)', 'Friday', 'Monday', 'Saturday', 'Sunday','Thursday', 'Tuesday', 'Wednesday']
+Dependent variable: Daily_usage_count
+   
+   Start Date: 2022-05-10 09:00:00
+   End Date: 2023-09-30 19:00:00
+
+************Summer*******************
+Pm params values and coefficients for Summer
+6.444027610148412*** (p-value: 0.0)
+-0.0006061633251404911*** (p-value: 0.0)
+0.0055525782163132744*** (p-value: 0.0)
+0.0826437333864797*** (p-value: 0.0)
+-0.03578486557415667*** (p-value: 0.0)
+-0.009314616119533416*** (p-value: 0.0)
+0.008945646430521927*** (p-value: 0.0)
+-0.00206209636380601*** (p-value: 0.0)
+1.038760609786434*** (p-value: 0.0)
+0.7823795064795924*** (p-value: 0.0)
+1.0865897409524474*** (p-value: 0.0)
+0.9202402870107558*** (p-value: 0.0)
+0.9197145474730851*** (p-value: 0.0)
+0.8521268043352546*** (p-value: 0.0)
+0.8442161141108463*** (p-value: 0.0)
+
+Coefficient Values for Summer:
+const                      6.444028
+TMIN                      -0.000606
+TMAX                       0.005553
+Lime                       0.082644
+Lyft                      -0.035785
+Spin                      -0.009315
+Trip Distance (miles)      0.008946
+Trip Duration (minutes)   -0.002062
+Friday                     1.038761
+Monday                     0.782380
+Saturday                   1.086590
+Sunday                     0.920240
+Thursday                   0.919715
+Tuesday                    0.852127
+Wednesday                  0.844216
+
+************Winter*******************
+Pm params values and coefficients for Winter
+3.1136801419958653*** (p-value: 0.0)
+0.01927346330269884*** (p-value: 0.0)
+0.009857745014695066*** (p-value: 0.0)
+1.2262758772672977*** (p-value: 0.0)
+0.617084812562942*** (p-value: 0.0)
+1.2703194521656203*** (p-value: 0.0)
+-0.000146964963676742 (p-value: 0.831983934047788)
+-9.978335628341726e-05 (p-value: 0.14635494798033666)
+0.5533749686540863*** (p-value: 0.0)
+0.44420874449789105*** (p-value: 0.0)
+0.42642110116660187*** (p-value: 0.0)
+0.30877373702607813*** (p-value: 0.0)
+0.5857853286640436*** (p-value: 0.0)
+0.42614223983139915*** (p-value: 0.0)
+0.36897402215576663*** (p-value: 0.0)
+
+Coefficient Values for Winter:
+const                      3.113680
+TMIN                       0.019273
+TMAX                       0.009858
+Lime                       1.226276
+Lyft                       0.617085
+Spin                       1.270319
+Trip Distance (miles)     -0.000147
+Trip Duration (minutes)   -0.000100
+Friday                     0.553375
+Monday                     0.444209
+Saturday                   0.426421
+Sunday                     0.308774
+Thursday                   0.585785
+Tuesday                    0.426142
+Wednesday                  0.368974
+
+************Fall*******************
+Pm params values and coefficients for Fall
+5.05727983671337*** (p-value: 0.0)
+0.01805561376984409*** (p-value: 0.0)
+0.009439838653787997*** (p-value: 0.0)
+0.16929281750915884*** (p-value: 0.0)
+0.13663616128727277*** (p-value: 0.0)
+0.09539250668123628*** (p-value: 0.0)
+0.0033060541624647327*** (p-value: 0.0)
+-0.0007452759200672967*** (p-value: 0.0)
+0.934012314266846*** (p-value: 0.0)
+0.5636999263853814*** (p-value: 0.0)
+0.9093516372344972*** (p-value: 0.0)
+0.7004074980417213*** (p-value: 0.0)
+0.7494560283094924*** (p-value: 0.0)
+0.5297502553171125*** (p-value: 0.0)
+0.6706021771583176*** (p-value: 0.0)
+
+Coefficient Values for Fall:
+const                      5.057280
+TMIN                       0.018056
+TMAX                       0.009440
+Lime                       0.169293
+Lyft                       0.136636
+Spin                       0.095393
+Trip Distance (miles)      0.003306
+Trip Duration (minutes)   -0.000745
+Friday                     0.934012
+Monday                     0.563700
+Saturday                   0.909352
+Sunday                     0.700407
+Thursday                   0.749456
+Tuesday                    0.529750
+Wednesday                  0.670602
+
+************Spring*******************
+Pm params values and coefficients for Spring
+4.660516742756279*** (p-value: 0.0)
+-0.00845403520265825*** (p-value: 0.0)
+0.03352646256641555*** (p-value: 0.0)
+-0.02002677922759274*** (p-value: 0.0)
+-0.2569166427142478*** (p-value: 0.0)
+-0.02070919192641227*** (p-value: 0.0)
+0.006213793760214917*** (p-value: 0.0)
+-0.0006488520426752369*** (p-value: 0.0)
+0.8061538551286288*** (p-value: 0.0)
+0.5405569724194472*** (p-value: 0.0)
+0.8465272214390837*** (p-value: 0.0)
+0.6933119793729983*** (p-value: 0.0)
+0.6281122701119982*** (p-value: 0.0)
+0.5334942070576221*** (p-value: 0.0)
+0.6123602372264966*** (p-value: 0.0)
+
+Coefficient Values for Spring:
+const                      4.660517
+TMIN                      -0.008454
+TMAX                       0.033526
+Lime                      -0.020027
+Lyft                      -0.256917
+Spin                      -0.020709
+Trip Distance (miles)      0.006214
+Trip Duration (minutes)   -0.000649
+Friday                     0.806154
+Monday                     0.540557
+Saturday                   0.846527
+Sunday                     0.693312
+Thursday                   0.628112
+Tuesday                    0.533494
+Wednesday                  0.612360
+
+
+
+

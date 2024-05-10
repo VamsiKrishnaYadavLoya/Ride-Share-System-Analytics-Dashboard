@@ -1,0 +1,38 @@
+Initial Difficulties:
+•	Doing research and analyzing Ride share tendency analysis in smart cities was the initial challenge. To get a clear picture on understanding of smart cities, 
+  exploration of transportation systems and then went into AI enabled architecture. It took us enough time on understanding “How to leverage AI models by integrating 
+  them into our dashboard techniques.”
+•	Finding recent datasets on post-pandemic e-scooter usage in U.S. states and conducting ride-share tendency analysis in smart cities was quite a challenge, 
+  especially given the need for up-to-date information amidst rapidly changing conditions.
+
+Data Cleaning and Preprocessing:
+•	Missing Values: I have encountered missing values in some columns of your e-scooter data (e.g., 'Vendor' or 'Trip Distance') which I need to handle by imputation or removal. 
+•	Inconsistent Data Formats: Inconsistent date/time formats in the 'Start Time' and 'End Time' columns could have caused issues before converting them to a standard format. 
+•	Outliers: The presence of outliers in features like 'Trip Distance' will potentially affect the results of regression analysis. So, it was a challenge to remove and identify all the outliers.
+
+Feature Engineering: 
+•	Choosing Appropriate Features: Selecting the most relevant features for model (e.g., including 'hour_of_day' but not 'day_of_week' for all seasons) requires exploration and experimentation. 
+•	Feature Creation Errors: Initially I have encountered bugs in the code for creating features like 'day_of_week' or 'season' from timestamps, leading to incorrect feature values. 
+•	Navigating through new datasets, especially e-scooter and bike data alongside weather data, posed a significant challenge. Pinpointing weather-related patterns within specific time 
+  frames demanded considerable time and effort. Moreover, accessing historical weather data proved to be a hurdle, lacking readily available resources.
+
+Modeling: 
+•	Multicollinearity: There is a need to check for multicollinearity among all the independent variables, I choose like “day_of_the_week”, “season”, 
+  “weekend”, duration, and distnace as correlated features affects the model's stability. 
+•	Convergence Issues: In most cases, the Poisson regression model might not be able to converge due to issues like separation. 
+  So, I need to adjust model parameters and handle these issues before obtaining results. 
+
+Evaluation: 
+•	Interpreting Coefficients: Accurately interpreting the coefficients and p-values from the Poisson regression model is 
+  crucial to understand the impact of each feature on ride-sharing counts. And trying to indicate the significance using “p” value is a bit of a challenge. 
+
+Choosing the Right Performance Metric: 
+•	RMSE might not be the most suitable metric for evaluating a count model which I am using Poisson regression. So, I considered using alternative metrics 
+  like Mean Absolute Error (MAE). 
+•	Handling the extensive data volume posed a challenge during model training and evaluation, demanding considerable time investment. 
+  However, the outcomes proved to be substantial and meaningful.
+
+General Challenges: 
+•	Data Availability: Limited data for certain time periods or weather conditions restricted our analysis and model generalizability. 
+•	Understanding Sponsor Feedback: Interpreting and effectively incorporating sponsor’s suggestions regarding e-scooter vs. bike data, 
+  weather data, and separate models parallelly following the research papers provided by our sponsor and doing the analysis was a bit challenging.
